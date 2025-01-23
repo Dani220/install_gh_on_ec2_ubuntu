@@ -8,3 +8,6 @@
 
 sudo apt update
 sudo apt install gh
+
+
+#esto es una modificacion del script para ver si me deja actualizar###
