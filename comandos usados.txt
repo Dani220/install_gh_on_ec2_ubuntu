@@ -1,0 +1,8 @@
+nano bootstrap.ldif
+
+#Si hay un docker compose up lo debemos quitar para que tenga en cuenta la nueva base de datos
+docker down
+#Luego hacemos otra vez en la carpeta donde tenemos la base de datos un docker up 
+docker compose up -d
+
+#Y probamos a iniciar sesion y deberia de funcionar tanto con admin como con el usuario que hemos configurado
