@@ -23,6 +23,17 @@ uid: johndoe
 mail: johndoe@example.org
 userPassword: password123
 
+# Usuarios en IT
+dn: uid=dani,ou=IT,dc=example,dc=org
+changetype: add
+objectClass: inetOrgPerson
+cn: Dani
+sn: Dani
+uid: dani
+mail: dani@example.org
+userPassword: password124
+
+
 dn: uid=anna.meier,ou=IT,dc=example,dc=org
 changetype: add
 objectClass: inetOrgPerson
