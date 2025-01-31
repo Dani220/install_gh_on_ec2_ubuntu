@@ -1,4 +1,18 @@
+#Modificamos el archivo y copiamos y pegamos un usuario y lo personalizamos para tener nuestro usuario
+
 nano bootstrap.ldif
+
+#El contenido que tenemos que poner es el siguiente por ejemplo
+# Usuarios en IT
+dn: uid=dani,ou=IT,dc=example,dc=org
+changetype: add
+objectClass: inetOrgPerson
+cn: Dani
+sn: Dani
+uid: dani
+mail: dani@example.org
+userPassword: password124
+
 
 #Si hay un docker compose up lo debemos quitar para que tenga en cuenta la nueva base de datos
 docker down
