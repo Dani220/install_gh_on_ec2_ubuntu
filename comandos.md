@@ -2,6 +2,11 @@
 
 Lo que hemos usado ha sido lo siguiente
 
+# Script para escribir un archivo LDIF
+
+Este script en Python escribe contenido en un archivo LDIF.
+
+```python
 def escribir_contenido_ldif(contenido, filename):
     """
     Escribe el contenido proporcionado en un archivo con el nombre especificado.
@@ -16,15 +21,17 @@ def escribir_contenido_ldif(contenido, filename):
     except Exception as e:
         print(f"Error al escribir el archivo: {e}")
 
-Ejemplo de uso:
+# Ejemplo de uso:
 ldif_content_example = """
-dn: ou=instituto dc=samblas,dc=org
+dn: ou=instituto,dc=samblas,dc=org
 objectClass: top
 objectClass: organizationalUnit
 ou: testou
-dn: ou=instituto dc=samblas,dc=org
+dn: ou=instituto,dc=samblas,dc=org
 objectClass: top
 objectClass: organizationalUnit
 ou: testou2
 """
+
 escribir_contenido_ldif(ldif_content_example, "output.ldif")
+
