@@ -1,7 +1,7 @@
 ![image](https://github.com/user-attachments/assets/655aa800-1555-44b1-9455-22d5b845208c)
 
+Lo que hemos usado ha sido lo siguiente
 
-El contenido del script de python seria el siguiente: 
 def escribir_contenido_ldif(contenido, filename):
     """
     Escribe el contenido proporcionado en un archivo con el nombre especificado.
