@@ -16,7 +16,7 @@ def escribir_contenido_ldif(contenido, filename):
     except Exception as e:
         print(f"Error al escribir el archivo: {e}")
 
-# Ejemplo de uso:
+Ejemplo de uso:
 ldif_content_example = """
 dn: ou=instituto dc=samblas,dc=org
 objectClass: top
