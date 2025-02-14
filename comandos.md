@@ -1,4 +1,4 @@
-![Upl![image](https://github.com/user-attachments/assets/be678873-4dbc-45d8-ac59-465df9bd7744)
+![image](https://github.com/user-attachments/assets/655aa800-1555-44b1-9455-22d5b845208c)
 
 
 El contenido del script de python seria el siguiente: 
